@@ -26,6 +26,10 @@
   background: linear-gradient(45deg, #fa65b1, #726ae3);
   transition: 1s;
 }
+.icondivb{
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .cmicon {
   width: 22px;
