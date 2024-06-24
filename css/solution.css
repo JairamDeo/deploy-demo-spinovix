@@ -94,5 +94,16 @@
       width: 100vw;
     }
   }
-
+  .challenge-button:hover{
+    .mh2{
+      color: #726ae3;
+      transition: 1s ease;
+    }
+  }
+  .challenge-box:hover{
+    .ah2{
+      color: #726ae3;
+      transition: 1s ease;
+    }
+  }
   /* sec5 styles end */

@@ -17,9 +17,14 @@ class SpecialHeader extends HTMLElement {
       <!-- Header ( Navbar ) code start here -->
       <div id="header" class="w-full h-[90px] py-[80px">
         <div class="navbar px-[25px] md:px-[96px] py-[20px] bg-transparent flex justify-between items-center fixed top-0 z-[1000] transition-all duration-300 ease-in-out">
-          <div class="flex flex-row">
-            <img src='/assets/Logo.png' alt="Logo">
-            <div class="w-[121px] h-[45px] text-[18px] font-bold leading-[20px] ml-[0.5rem] mt-[0.5rem]">Spinovix Software</div>
+          <div class="flex flex-row gap-2">
+            <svg class="mx-auto" width="40" height="50" viewBox="0 0 50 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M49.8883 14.5157V28.6977L42.2133 24.3597V19.3543L25.1949 9.17659L7.67594 19.3543V25.6945L31.5351 40.377L24.3607 44.715L0.000976562 30.0325V14.5157L25.1949 0L49.8883 14.5157Z"
+                  fill="#FC6C04" />
+              <path d="M0.000417071 50.8886L0.000418311 36.7066L7.67538 41.0446L7.67538 46.05L24.6938 56.2277L42.2127 46.05L42.2127 39.7098L18.3536 25.0273L25.528 20.6893L49.8877 35.3718L49.8877 50.8886L24.6938 65.4043L0.000417071 50.8886Z"
+              fill="#FC6C04" />
+            </svg>
+            <div class="w-[121px] h-[45px] text-[18px] font-bold leading-[20px] mx-auto mt-[0.3rem]">Spinovix Software</div>
           </div>
           <div class="md:flex hidden gap-[34px] items-center">
             <a href="/index.html" class='nav-link text-[14px] font-bold leading-[17.6px]'>Home</a>
