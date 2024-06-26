@@ -17,13 +17,13 @@
 }
 
 .mhex:hover .hexbox {
-  transform: rotateY(180deg) scale(1.25);
+  transform: rotateY(180deg) scale(1.2);
 }
 .mhex:hover .hexbox1, .mhex:hover .hexbox5, .mhex:hover .hexbox6 {
-  transform: rotateY(-180deg) scale(1.25);
+  transform: rotateY(-180deg) scale(1.2);
 }
 .mhex:hover .hexbox2, .mhex:hover .hexbox3, .mhex:hover .hexbox4 {
-  transform: rotateY(180deg) scale(1.25);
+  transform: rotateY(180deg) scale(1.2);
 }
 
 .frontbox,
