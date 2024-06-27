@@ -48,18 +48,18 @@ a {
 
 .solution-button2 {
   position: relative;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 800;
   padding: 18px 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
   overflow: hidden;
   transition: all .5s;
-  border-radius: 15px;
 }
 
 a.solution-button2:hover {
+  border-radius: 15px;
   letter-spacing: 4px;
   background: linear-gradient(to right, #fa65b1, #9b73c3);
   color: #fff !important;
