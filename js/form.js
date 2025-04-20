@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+    // Set the Web3Forms API key
+    document.getElementById('web3forms-key').value = "4eb5f853-1c13-407b-bf7b-b3da0f1e8882";
+
+
     const form = document.getElementById('contact-form');
     const modal = document.getElementById('myModal');
     const modalMessage = document.getElementById('modal-message');
@@ -14,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         companyName: document.getElementById('error-companyName'),
         solution: document.getElementById('error-solution')
     };
-    
+
     const validate = (formData) => {
         let tempErrors = {};
         let isValid = true;
@@ -77,6 +82,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (response.ok) {
                 // Show modal instead of text message
                 modal.style.display = "block";
+
+                // Auto close modal after 5 seconds
+                setTimeout(() => {
+                    modal.style.display = "none";
+                }, 3000);
+
                 // Optionally, reset form fields and hide dropdown menu here
                 form.reset();
                 solutionInput.value = '';
@@ -111,11 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Modal close functionality
     const span = document.getElementsByClassName("close")[0];
-    span.onclick = function() {
+    span.onclick = function () {
         modal.style.display = "none";
     };
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }

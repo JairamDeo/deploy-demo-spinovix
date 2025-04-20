@@ -60,7 +60,8 @@ class SpecialHeader extends HTMLElement {
       <div id="easter-egg" class="easter-egg-container" style="display: none;">
         <div class="easter-egg-content">
           <h3>🎉 You found the Easter Egg! 🎉</h3>
-          <p>Happy coding to the awesome team!</p>
+          <p>Happy coding to the awesome Spinovix Developer team! Jairam Deo & Punit Deshmukh 😊
+                </p> </p>
         </div>
       </div>
     `;
@@ -82,12 +83,12 @@ class SpecialHeader extends HTMLElement {
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);        
       }
       .mnavb{
-        // color: #2385C6 !important;
-        color: #2385C6 !important;
-        border: 1px solid #2385C6 !important;        
+        // color: #fa65b1 !important;
+        color: #fa65b1 !important;
+        border: 1px solid #fa65b1 !important;        
       } 
       .mnavb:hover{
-              background-color: #2385C6;
+              background-color: #726ae3;
         color: #fff !important;   
       }   
 
@@ -95,8 +96,8 @@ class SpecialHeader extends HTMLElement {
         /* Add padding to create space between the link text and the border */
         padding-bottom: 8px;
         border-bottom: 1.3px solid;
-        // color: #726ae3;
-        color: #2385C6;
+         color: #726ae3;
+        color: #fa65b1;
 
         /* Apply a gradient as border */
         border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, #726ae3 52%, rgba(255, 255, 255, 0.1) 100%) 1
@@ -126,7 +127,7 @@ class SpecialHeader extends HTMLElement {
       }
 
       .active-link {
-        color: #2385C6 !important;
+        color: #fa65b1 !important;
       }
       
       /* Easter Egg Styles */
@@ -136,7 +137,7 @@ class SpecialHeader extends HTMLElement {
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 9999;
-        background: linear-gradient(135deg, #6e8efb, #a777e3);
+        background: linear-gradient(135deg, #726ae3, #fa65b1);
         padding: 20px;
         border-radius: 12px;
         box-shadow: 0 10px 25px rgba(0,0,0,0.2);

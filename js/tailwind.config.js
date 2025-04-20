@@ -8,7 +8,7 @@ tailwind.config = {
         'Logo': "url('/assets/Logoi.png')",
         'Logonobg': "url('/assets/logonobg.png')",
         'hsec1': "url('/assets/blog-left-dec.png')",
-        // 'footerbg': "url('/assets/quote-bg.jpg')",
+        'footerbg': "url('/assets/quote-bg.jpg')",
         'ssec2bg': "url('/assets/solution-page/SSec2bg.png')",
 
         'hsec2': "url('/assets/bge.jpg')",

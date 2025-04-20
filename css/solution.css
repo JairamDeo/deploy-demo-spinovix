@@ -56,12 +56,12 @@
     opacity: .7;
     transform: scale(.85);
   }
-  /* .scbox:hover h1{
+  .scbox:hover h1{
     color: #fa65b1;
-  } */
-  /* .scbox:hover a{
+  }
+  .scbox:hover a{
     color: #fa65b1;
-  }  */
+  } 
 
 
   .br {
@@ -72,7 +72,7 @@
     width: 221px;
     height: 0;
     border: 1px solid;
-    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, #53C4D1 52%, rgba(255, 255, 255, 0.1) 100%) 1;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, #fa65b1 52%, rgba(255, 255, 255, 0.1) 100%) 1;
     border-image-slice: 1;
   }  
   @media (max-width: 768px) {
@@ -88,7 +88,14 @@
 /* section 2 styles end */
 
 /* section3 challenges styles */
-
+.Challengesbox{
+  background: linear-gradient(#fff, #fff) padding-box,
+  linear-gradient(45deg,#fa65b1,#726ae3) border-box;
+  border-top: 1px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 1.5px solid transparent;
+  border-right: 1.5px solid transparent;
+}
 
 .ssc3box{
   border-radius: 15px;
@@ -99,17 +106,17 @@
 
 .ssec5box{
   background: linear-gradient(#fff, #fff) padding-box,
-  linear-gradient(45deg,#2385C6, #53C4D1) border-box;
+  linear-gradient(45deg,#fa65b1,#726ae3) border-box;
   border: 1.5px solid transparent;
   border-radius: 15px;
 }
 .ssec5box button{
-  border: 1.5px solid #53C4D1;
-  color: #53C4D1 !important;
+  border: 1.5px solid #fa65b1;
+  color: #fa65b1 !important;
   transition-duration: 1s;
 }
 .ssec5box button:hover{
-  background-color: #53C4D1;
+  background-color: #fa65b1;
   color: #fff !important;
 }
 
