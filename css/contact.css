@@ -23,7 +23,7 @@
 }
 
 .icon-container:hover {
-  background: linear-gradient(45deg, #fa65b1, #726ae3);
+  background: linear-gradient(45deg, #2385C6, #53C4D1);
   transition: 1s;
 }
 .icondivb{
@@ -35,7 +35,7 @@
   width: 22px;
   height: 22px;
   stroke-width: 2;
-  stroke: #fa65b1;
+  stroke: #2385C6;
   /* Use the gradient as stroke */
   transition: stroke 2s;
 }
@@ -51,7 +51,7 @@
   inset: 0;
   border-radius: 50%;
   border: 1.5px solid transparent;
-  background: linear-gradient(180deg, #fa65b1 0%, #726ae3 100%) border-box;
+  background: linear-gradient(180deg, #2385C6 0%, #53C4D1 100%) border-box;
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
 }
@@ -70,7 +70,7 @@
   margin-top: 2rem;
 
   background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(45deg, #fa65b1, #726ae3) border-box;
+    linear-gradient(45deg, #2385C6, #53C4D1) border-box;
   border: 2.5px solid transparent;
   border-radius: 8px;
 }
@@ -101,7 +101,7 @@
   border-radius: 8px;
 
   background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(45deg, #fa65b1, #726ae3) border-box;
+    linear-gradient(45deg, #2385C6, #53C4D1) border-box;
   border: 2px solid transparent;
 }
 
@@ -120,13 +120,13 @@
 }
 
 .formbutton {
-  border: 1.5px solid #fa65b1;
-  color: #fa65b1;
+  border: 1.5px solid #2385C6;
+  color: #2385C6;
   transition: 1s ease;
 }
 
 .formbutton:hover {
-  background-color: #fa65b1;
+  background-color: #2385C6;
   color: white;
 }
 

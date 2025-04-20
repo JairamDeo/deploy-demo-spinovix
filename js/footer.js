@@ -1,34 +1,46 @@
 class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-    <footer class="text-white py-5 px-7 md:px-[96px] bg-footerbg">
+    <footer class="text-white py-5 px-7 md:px-[96px] bg-[#53C4D1]">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-2 md:grid-cols-4">
                 <div class="custom-column">
-                    <h4 class="footerheading text-[18px] text-lg font-bold mb-4 capitalize">Solutions</h4>
+                    <h4 class="footerheading text-[18px] text-lg font-bold mb-4 capitalize">Services</h4>
                     <ul class="space-y-5 mb-3">
                         <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
-                            <a href="#">Solutions</a>
+                            <a href="#">Website Development</a>
                         </li>
                         <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
-                            <a href="#">Solutions</a>
+                            <a href="#">Mobile App Development</a>
                         </li>
                         <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
-                            <a href="#">Solutions</a>
+                            <a href="#">AI/ML Development</a>
+                        </li>
+                        <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
+                            <a href="#">Data Analytics & Dashboard</a>
+                        </li>
+                        <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
+                            <a href="#">E-Commerce Platforms</a>
                         </li>
                     </ul>
                 </div>
                 <div class="custom-column">
-                    <h4 class="footerheading text-[18px] text-lg font-bold mb-4">Product</h4>
+                    <h4 class="footerheading text-[18px] text-lg font-bold mb-4">Services</h4>
                     <ul class="space-y-5 mb-3">
                         <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
-                            <a href="#">Product</a>
+                            <a href="#">Website & App UI/UX Design</a>
                         </li>
                         <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
-                            <a href="#">Product</a>
+                            <a href="#">E-Commerce Design</a>
                         </li>
                         <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
-                            <a href="#">Product</a>
+                            <a href="#">Email Newsletter Design</a>
+                        </li>
+                        <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
+                            <a href="#">Digital Marketing Services</a>
+                        </li>
+                        <li class="footli hover:text-blue-800 duration-500 text-[16px] font-600">
+                            <a href="#">SEO Optimization</a>
                         </li>
                     </ul>
                 </div>
@@ -60,13 +72,13 @@ class SpecialFooter extends HTMLElement {
             </div>
 
             <div class="footlast mt-[1.2rem] md:flex md:justify-between md:items-center" style="border-top: 1.5px solid; border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, #FFFFFF 52%, rgba(255, 255, 255, 0.1) 100%) 1;">
-                <p class="text-[16px] font-bold hover:text-blue-800 duration-500 cursor-pointer">Copyright © 2024 Spinnovix Pvt. Ltd.</p>
+                <p class="text-[16px] font-bold hover:text-blue-800 duration-500 cursor-pointer">Copyright © 2024 Spinovix Pvt. Ltd.</p>
                 <div class="flex md:justify-end gap-2 mt-[2.5rem]">
                         <!-- social media icons -->
 
                     <a href="">
                         <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)]  bg-white p-[3px] w-14 h-14 parenthex flex justify-center items-center via-cyan-700 to-linear-bg from-blue-600 -translate-y-[50%]">
-                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-linear-bg sico">
+                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-[#2385C6] ">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M18.3263 1.9043H21.6998L14.3297 10.3278L23 21.7903H16.2112L10.894 14.8383L4.80995 21.7903H1.43443L9.31743 12.7804L1 1.9043H7.96111L12.7674 8.25863L18.3263 1.9043ZM17.1423 19.7711H19.0116L6.94539 3.81743H4.93946L17.1423 19.7711Z" fill="white"/>
                                 </svg>
@@ -76,7 +88,7 @@ class SpecialFooter extends HTMLElement {
                 
                     <a href="">
                         <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)]  bg-white p-[3px] w-14 h-14 parenthex flex justify-center items-center via-cyan-700 to-linear-bg from-blue-600 -translate-y-[50%]">
-                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-linear-bg sico">
+                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-[#2385C6] ">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M18.3952 7.02212C17.6005 7.02368 16.9543 6.3802 16.9528 5.58548C16.9512 4.79076 17.5947 4.14457 18.3898 4.14302C19.1848 4.14146 19.831 4.78531 19.8326 5.58004C19.8338 6.37476 19.1903 7.02057 18.3952 7.02212Z" fill="white"/>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0115 18.161C8.60909 18.1676 5.8451 15.4149 5.8385 12.0117C5.83188 8.60923 8.58536 5.84481 11.9878 5.8382C15.3909 5.83159 18.1553 8.5859 18.1619 11.9879C18.1685 15.3912 15.4143 18.1544 12.0115 18.161ZM11.992 8.00035C9.78365 8.00424 7.99594 9.79858 7.99983 12.0074C8.0041 14.2166 9.79882 16.0039 12.0072 15.9996C14.2164 15.9954 16.0041 14.2014 15.9998 11.9922C15.9955 9.78302 14.2008 7.99608 11.992 8.00035Z" fill="white"/>
@@ -88,7 +100,7 @@ class SpecialFooter extends HTMLElement {
                     
                     <a href="">
                         <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)]  bg-white p-[3px] w-14 h-14 parenthex flex justify-center items-center via-cyan-700 to-linear-bg from-blue-600 -translate-y-[50%]">
-                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-linear-bg sico">
+                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-[#2385C6] ">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_1170_757)">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0099 0C5.36875 0 0 5.40833 0 12.0992C0 17.4475 3.43994 21.9748 8.21205 23.5771C8.80869 23.6976 9.02724 23.3168 9.02724 22.9965C9.02724 22.716 9.00757 21.7545 9.00757 20.7527C5.6667 21.474 4.97099 19.3104 4.97099 19.3104C4.43409 17.9082 3.63858 17.5478 3.63858 17.5478C2.54511 16.8066 3.71823 16.8066 3.71823 16.8066C4.93117 16.8868 5.56763 18.0486 5.56763 18.0486C6.64118 19.8913 8.37111 19.3707 9.06706 19.0501C9.16638 18.2688 9.48473 17.728 9.82275 17.4276C7.15817 17.1471 4.35469 16.1055 4.35469 11.458C4.35469 10.1359 4.8316 9.05428 5.58729 8.21304C5.46807 7.91263 5.0504 6.67043 5.70677 5.00787C5.70677 5.00787 6.72083 4.6873 9.00732 6.24981C9.98625 5.98497 10.9958 5.85024 12.0099 5.84911C13.024 5.84911 14.0577 5.98948 15.0123 6.24981C17.299 4.6873 18.3131 5.00787 18.3131 5.00787C18.9695 6.67043 18.5515 7.91263 18.4323 8.21304C19.2079 9.05428 19.6652 10.1359 19.6652 11.458C19.6652 16.1055 16.8617 17.1269 14.1772 17.4276C14.6148 17.8081 14.9924 18.5292 14.9924 19.6711C14.9924 21.2936 14.9727 22.5957 14.9727 22.9962C14.9727 23.3168 15.1915 23.6976 15.7879 23.5774C20.56 21.9745 23.9999 17.4475 23.9999 12.0992C24.0196 5.40833 18.6312 0 12.0099 0Z" fill="white"/>
@@ -105,7 +117,7 @@ class SpecialFooter extends HTMLElement {
 
                     <a href="">
                         <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)]  bg-white p-[3px] w-14 h-14 parenthex flex justify-center items-center via-cyan-700 to-linear-bg from-blue-600 -translate-y-[50%]">
-                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-linear-bg sico">
+                            <div class="[clip-path:polygon(_50%_0%,_100%_25%,_100%_75%,_50%_100%,_0%_75%,_0%_25%)] flex justify-center h-full w-full items-center bg-[#2385C6] ">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5.45455 21.0045H1.63636C0.733636 21.0045 0 20.2736 0 19.3681V5.45919C0 3.43555 2.30727 2.28191 3.92727 3.49555L12 9.54996L20.0727 3.49555C21.69 2.28191 24 3.43555 24 5.45919V19.3681C24 20.2709 23.2691 21.0045 22.3636 21.0045H18.5454V11.7318L12 16.6409L5.45456 11.7318L5.45455 21.0045Z" fill="white"/>
                                 </svg>

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         companyName: document.getElementById('error-companyName'),
         solution: document.getElementById('error-solution')
     };
-
+    
     const validate = (formData) => {
         let tempErrors = {};
         let isValid = true;

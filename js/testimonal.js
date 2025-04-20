@@ -1,7 +1,8 @@
 let currentParent = 1;
 
 function handleNextClick() {
-  currentParent = Math.min(currentParent + 1, 4);
+  currentParent = Math.min(currentParent + 1, 2);
+  // here 2 is no, of testimonal we habve currentlyu we have 2 previously we have 4 
   updateTestimonial();
 }
 
@@ -11,7 +12,8 @@ function handlePreviousClick() {
 }
 
 function updateTestimonial() {
-  const testimonials = document.querySelectorAll('#testimonial-1, #testimonial-2, #testimonial-3, #testimonial-4');
+  const testimonials = document.querySelectorAll('#testimonial-1, #testimonial-2');
+  // Selecting only #testimonial-1 and #testimonial-2 becuase  #testimonial-3, and #testimonial-4 are not present in index.html
   testimonials.forEach((testimonial, index) => {
     if (index + 1 === currentParent) {
       testimonial.style.display = 'block';

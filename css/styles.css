@@ -26,6 +26,7 @@
 .formb {
     color: white !important;
     border: 1.5px solid white !important;
+    background-color: #2385C6;
 }
 
 .formb:hover {
